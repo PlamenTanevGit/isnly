@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Insly Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Insly Test</h1>
+<p>
+  Test duration: 240.995s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">inslyTests.TC_01_verify_Title_and_Form</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="TC01 asserts'Sign up and start using' is showen and the form looks accordig the image 0">TC_01_titleCheck_and_FormVerify</span>
+      </td>
+  <td class="duration">
+    14.119s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Starting test method:TC_01_titleCheck_and_FormVerify
+                                URL is Verified
+                                Page title  is Verified
+                                 Enter value : 
+                                 Enter value : 
+                                 Enter value : 
+                                 Enter value : 
+                                 Enter value : 
+                                 Enter value : 
+                                Text : You can invite your colleagues from here and they will get their own user access to your Company account - is Verified
+                                All elements on Signup page are Displayed
+                                TC_01_titleCheck_and_FormVerify is Failed
+                                Click to see Screenshot
+                                <a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_23_EEST_2019.png></a>
+                                <br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_23_EEST_2019.png' height='200' width='200' /><br>
+                                <a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_23_EEST_2019.png>Screenshot</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException: Images dimensions mismatch: image1 - 3797x3755; image2 - 1898x1867</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              com.assertthat.selenium_shutterbug.utils.image.ImageProcessor.imagesAreEqualsWithDiff(ImageProcessor.java:155)<br />
+              com.assertthat.selenium_shutterbug.core.Snapshot.equalsWithDiff(Snapshot.java:215)<br />
+              insly.base.imageComparator(base.java:178)<br />
+              inslyTests.TC_01_verify_Title_and_Form.TC_01_titleCheck_and_FormVerify(TC_01_verify_Title_and_Form.java:43)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">inslyTests.TC_02_verify_AutoFillUp</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify the autfillup in the 'your insly address' field and other fields working">TC_02_Verify_auto_addressFillUp</span>
+      </td>
+  <td class="duration">
+    5.120s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"myFirstTestCompanyName", "Greece", "Insurance Agency", "6-10", "I am a tech guy"</span><br />
+    
+            <div class="testOutput">
+                        Starting test method:TC_02_Verify_auto_addressFillUp
+                                 Enter value : myFirstTestCompanyName
+                                Selecting from dropdown value as : Greece
+                                Selecting from dropdown value as : Insurance Agency
+                                Selecting from dropdown value as : 6-10
+                                Selecting from dropdown value as : I am a tech guy
+                                TC_02_Verify_auto_addressFillUp is Failed
+                                Click to see Screenshot
+                                <a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_51_EEST_2019.png></a>
+                                <br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_51_EEST_2019.png' height='200' width='200' /><br>
+                                <a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_51_EEST_2019.png>Screenshot</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException: Images dimensions mismatch: image1 - 3797x3755; image2 - 1898x1867</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              com.assertthat.selenium_shutterbug.utils.image.ImageProcessor.imagesAreEqualsWithDiff(ImageProcessor.java:155)<br />
+              com.assertthat.selenium_shutterbug.core.Snapshot.equalsWithDiff(Snapshot.java:215)<br />
+              insly.base.imageComparator(base.java:178)<br />
+              inslyTests.TC_02_verify_AutoFillUp.TC_02_Verify_auto_addressFillUp(TC_02_verify_AutoFillUp.java:38)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">inslyTests.TC_03_SignUp_and_Verify_URL</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Admin Accoount details form fill,storing the suggested password">TC_03_SignUp_and_Verify_loginURL</span>
+      </td>
+  <td class="duration">
+    22.831s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"nswuposc", "Greece", "Insurance Agency", "6-10", "I am a tech guy", "stvxzlwg@email.com", "Some Manager", "123456789"</span><br />
+    
+            <div class="testOutput">
+                        Starting test method:TC_03_SignUp_and_Verify_loginURL
+                                 Enter value : nswuposc
+                                Selecting from dropdown value as : Greece
+                                Selecting from dropdown value as : Insurance Agency
+                                Selecting from dropdown value as : 6-10
+                                Selecting from dropdown value as : I am a tech guy
+                                 Enter value : stvxzlwg@email.com
+                                The generated String is  :stvxzlwg@email.com
+                                 Enter value : Some Manager
+                                 Enter value : 123456789
+                                The generated Secured Password from insly is  :Dw5-n7H-959-uMa
+                                All elements from Loading Page are Displayed
+                                TC_03_SignUp_and_Verify_loginURL is Failed
+                                Click to see Screenshot
+                                <a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_27_34_EEST_2019.png></a>
+                                <br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_27_34_EEST_2019.png' height='200' width='200' /><br>
+                                <a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_27_34_EEST_2019.png>Screenshot</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertTrue(Assert.java:44)<br />
+              org.testng.Assert.assertTrue(Assert.java:54)<br />
+              insly.base.URLverify(base.java:334)<br />
+              inslyTests.TC_03_SignUp_and_Verify_URL.TC_03_SignUp_and_Verify_loginURL(TC_03_SignUp_and_Verify_URL.java:74)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="SignUp_and_verify_LogedIn_as_User">TC_04_SignUp_and_verify_LogedIn_as_User</span>
+      </td>
+  <td class="duration">
+    25.976s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"lsbziuiq", "Greece", "Insurance Agency", "6-10", "I am a tech guy", "kcvnduiq@email.com", "Some Manager", "123456789"</span><br />
+    
+            <div class="testOutput">
+                        Starting test method:TC_04_SignUp_and_verify_LogedIn_as_User
+                                 Enter value : lsbziuiq
+                                Selecting from dropdown value as : Greece
+                                Selecting from dropdown value as : Insurance Agency
+                                Selecting from dropdown value as : 6-10
+                                Selecting from dropdown value as : I am a tech guy
+                                 Enter value : kcvnduiq@email.com
+                                The generated String is  :kcvnduiq@email.com
+                                 Enter value : Some Manager
+                                 Enter value : 123456789
+                                The generated Secured Password from insly is  :BTt-Xc4-egB-QrM
+                                All elements from Loading Page are Displayed
+                                TC_04_SignUp_and_verify_LogedIn_as_User is Failed
+                                Click to see Screenshot
+                                <a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_28_24_EEST_2019.png></a>
+                                <br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_28_24_EEST_2019.png' height='200' width='200' /><br>
+                                <a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_28_24_EEST_2019.png>Screenshot</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertTrue(Assert.java:44)<br />
+              org.testng.Assert.assertTrue(Assert.java:54)<br />
+              insly.base.URLverify(base.java:334)<br />
+              inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User.TC_04_SignUp_and_verify_LogedIn_as_User(TC_04_SignUp_and_verify_LogedIn_as_User.java:82)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">inslyTests.TC_07_SignUp_and_Login</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="SignUp_and_verify_LogedIn_as_User">TC_07_SignUp_and_Login</span>
+      </td>
+  <td class="duration">
+    22.028s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"flqeqqix", "Greece", "Insurance Agency", "6-10", "I am a tech guy", "dceolyeo@email.com", "Some Manager", "123456789"</span><br />
+    
+            <div class="testOutput">
+                        Starting test method:TC_07_SignUp_and_Login
+                                 Enter value : flqeqqix
+                                Selecting from dropdown value as : Greece
+                                Selecting from dropdown value as : Insurance Agency
+                                Selecting from dropdown value as : 6-10
+                                Selecting from dropdown value as : I am a tech guy
+                                 Enter value : dceolyeo@email.com
+                                The generated String is  :dceolyeo@email.com
+                                 Enter value : Some Manager
+                                 Enter value : 123456789
+                                The generated Secured Password from insly is  :8L6-y1t-37G-pRm
+                                All elements from Loading Page are Displayed
+                                TC_07_SignUp_and_Login is Failed
+                                Click to see Screenshot
+                                <a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_29_57_EEST_2019.png></a>
+                                <br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_29_57_EEST_2019.png' height='200' width='200' /><br>
+                                <a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_29_57_EEST_2019.png>Screenshot</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertTrue(Assert.java:44)<br />
+              org.testng.Assert.assertTrue(Assert.java:54)<br />
+              insly.base.URLverify(base.java:334)<br />
+              inslyTests.TC_07_SignUp_and_Login.TC_07_SignUp_and_Login(TC_07_SignUp_and_Login.java:76)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">inslyTests.TC_05_SignUpForm_ErrorMessages</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify correct Error messages are Displayed and CorrectText if no data is entered in the fields">TC_05_VerifyFieldsErrorMessages</span>
+      </td>
+  <td class="duration">
+    2.367s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Starting test method:TC_05_VerifyFieldsErrorMessages
+                                Text : Please enter your company name here. - is Verified
+                                Text : Please choose an address for your Insly database. - is Verified
+                                Text : Please enter your e-mail address here. - is Verified
+                                Text : Please enter your name here. - is Verified
+                                Text : This does not appear to be a valid phone number. - is Verified
+                                TC_05_VerifyFieldsErrorMessages is Passed
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">inslyTests.TC_06_SignUpForm_ErrorMessages2</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Verify correct Error messages are Displayed and CorrectText if less than required data is entered in the fields">TC_06_SignUpForm_ErrorMessages2</span>
+      </td>
+  <td class="duration">
+    2.067s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"qw", "Greece", "Insurance Agency", "6-10", "I am a tech guy", "qw", "qw", "1"</span><br />
+    
+            <div class="testOutput">
+                        Starting test method:TC_06_SignUpForm_ErrorMessages2
+                                 Enter value : qw
+                                Selecting from dropdown value as : Greece
+                                Selecting from dropdown value as : Insurance Agency
+                                Selecting from dropdown value as : 6-10
+                                Selecting from dropdown value as : I am a tech guy
+                                 Enter value : qw
+                                The generated String is  :qw
+                                 Enter value : qw
+                                 Enter value : 1
+                                Text : The company name must be at least 3 characters long. - is Verified
+                                 Enter value : qw
+                                Text : The address tag must be at least 3 characters long. - is Verified
+                                Text : This does not appear to be a valid e-mail address. - is Verified
+                                Text : Please enter your full name. - is Verified
+                                Text : This does not appear to be a valid phone number. - is Verified
+                                TC_06_SignUpForm_ErrorMessages2 is Passed
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

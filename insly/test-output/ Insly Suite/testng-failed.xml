@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Insly Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="insly.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Insly Test(failed)">
+    <classes>
+      <class name="inslyTests.TC_02_verify_AutoFillUp">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+          <include name="TC_02_Verify_auto_addressFillUp" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- inslyTests.TC_02_verify_AutoFillUp -->
+      <class name="inslyTests.TC_01_verify_Title_and_Form">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="TC_01_titleCheck_and_FormVerify"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- inslyTests.TC_01_verify_Title_and_Form -->
+      <class name="inslyTests.TC_07_SignUp_and_Login">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="TC_07_SignUp_and_Login" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- inslyTests.TC_07_SignUp_and_Login -->
+      <class name="inslyTests.TC_03_SignUp_and_Verify_URL">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="TC_03_SignUp_and_Verify_loginURL" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- inslyTests.TC_03_SignUp_and_Verify_URL -->
+      <class name="inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="TC_04_SignUp_and_verify_LogedIn_as_User" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User -->
+    </classes>
+  </test> <!-- Insly Test(failed) -->
+</suite> <!-- Failed suite [ Insly Suite] -->

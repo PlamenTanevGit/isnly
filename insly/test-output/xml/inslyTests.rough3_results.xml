@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Insly Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.693">
+  <properties />
+  
+  
+            <testcase name="TC_03_AdminAccountFill" time="0.693" classname="inslyTests.rough3" />
+      
+</testsuite>

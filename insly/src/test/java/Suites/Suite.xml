@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Insly Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="insly.Listners" />
+	</listeners>
+	<test thread-count="5" name="Insly Test">
+		<classes>
+			<class name="inslyTests.TC_01_verify_Title_and_Form" />
+			<class name="inslyTests.TC_02_verify_AutoFillUp" />
+			<class name="inslyTests.TC_03_SignUp_and_Verify_URL" />
+			<class name="inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User" />
+			<class name="inslyTests.TC_05_SignUpForm_ErrorMessages" />
+			<class name="inslyTests.TC_06_SignUpForm_ErrorMessages2" />
+			<class name="inslyTests.TC_07_SignUp_and_Login" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

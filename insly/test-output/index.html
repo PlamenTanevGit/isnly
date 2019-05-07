@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-_Insly_Suite">
+              <span class="suite-name border-failed"> Insly Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-_Insly_Suite">
+                    <span>C:\Users\Plamen\eclipse-workspace\insly\src\test\java\Suites\Suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-_Insly_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-_Insly_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-_Insly_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-_Insly_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-_Insly_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-_Insly_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 5 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-_Insly_Suite" class="hide-methods failed suite-_Insly_Suite"> (hide)</a> <!-- hide-methods failed suite-_Insly_Suite -->
+                      <a href="#" panel-name="suite-_Insly_Suite" class="show-methods failed suite-_Insly_Suite"> (show)</a> <!-- show-methods failed suite-_Insly_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-_Insly_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Insly_Suite" title="inslyTests.TC_01_verify_Title_and_Form" hash-for-method="TC_01_titleCheck_and_FormVerify">TC_01_titleCheck_and_FormVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Insly_Suite" title="inslyTests.TC_02_verify_AutoFillUp" hash-for-method="TC_02_Verify_auto_addressFillUp(myFirstTestCompanyName, Greece, Insurance Agency, 6-10, I am a tech guy)">TC_02_Verify_auto_addressFillUp(myFirstTestCompanyName, Greece, Insurance Agency, 6-10, I am a tech guy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Insly_Suite" title="inslyTests.TC_03_SignUp_and_Verify_URL" hash-for-method="TC_03_SignUp_and_Verify_loginURL(nswuposc, Greece, Insurance Agency, 6-10, I am a tech guy, stvxzlwg@email.com, Some Manager, 1234567...)">TC_03_SignUp_and_Verify_loginURL(nswuposc, Greece, Insurance Agency, 6-10, I am a tech guy, stvxzlwg@email.com, Some Manager, 1234567...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Insly_Suite" title="inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User" hash-for-method="TC_04_SignUp_and_verify_LogedIn_as_User(lsbziuiq, Greece, Insurance Agency, 6-10, I am a tech guy, kcvnduiq@email.com, Some Manager, 1234567...)">TC_04_SignUp_and_verify_LogedIn_as_User(lsbziuiq, Greece, Insurance Agency, 6-10, I am a tech guy, kcvnduiq@email.com, Some Manager, 1234567...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Insly_Suite" title="inslyTests.TC_07_SignUp_and_Login" hash-for-method="TC_07_SignUp_and_Login(flqeqqix, Greece, Insurance Agency, 6-10, I am a tech guy, dceolyeo@email.com, Some Manager, 1234567...)">TC_07_SignUp_and_Login(flqeqqix, Greece, Insurance Agency, 6-10, I am a tech guy, dceolyeo@email.com, Some Manager, 1234567...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-_Insly_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-_Insly_Suite" class="hide-methods passed suite-_Insly_Suite"> (hide)</a> <!-- hide-methods passed suite-_Insly_Suite -->
+                      <a href="#" panel-name="suite-_Insly_Suite" class="show-methods passed suite-_Insly_Suite"> (show)</a> <!-- show-methods passed suite-_Insly_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-_Insly_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Insly_Suite" title="inslyTests.TC_05_SignUpForm_ErrorMessages" hash-for-method="TC_05_VerifyFieldsErrorMessages">TC_05_VerifyFieldsErrorMessages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Insly_Suite" title="inslyTests.TC_06_SignUpForm_ErrorMessages2" hash-for-method="TC_06_SignUpForm_ErrorMessages2(qw, Greece, Insurance Agency, 6-10, I am a tech guy, qw, qw, 1)">TC_06_SignUpForm_ErrorMessages2(qw, Greece, Insurance Agency, 6-10, I am a tech guy, qw, qw, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-_Insly_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-_Insly_Suite" class="panel _Insly_Suite">
+          <div class="suite-_Insly_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">inslyTests.TC_02_verify_AutoFillUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_Verify_auto_addressFillUp(myFirstTestCompanyName, Greece, Insurance Agency, 6-10, I am a tech guy)">
+                  </a> <!-- TC_02_Verify_auto_addressFillUp(myFirstTestCompanyName, Greece, Insurance Agency, 6-10, I am a tech guy) -->
+                  <span class="method-name">TC_02_Verify_auto_addressFillUp</span>
+                  <span class="parameters">(myFirstTestCompanyName, Greece, Insurance Agency, 6-10, I am a tech guy)</span>
+                  <div class="stack-trace">com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException: Images dimensions mismatch: image1 - 3797x3755; image2 - 1898x1867
+	at com.assertthat.selenium_shutterbug.utils.image.ImageProcessor.imagesAreEqualsWithDiff(ImageProcessor.java:155)
+	at com.assertthat.selenium_shutterbug.core.Snapshot.equalsWithDiff(Snapshot.java:215)
+	at insly.base.imageComparator(base.java:178)
+	at inslyTests.TC_02_verify_AutoFillUp.TC_02_Verify_auto_addressFillUp(TC_02_verify_AutoFillUp.java:38)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the autfillup in the 'your insly address' field and other fields working)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Insly_Suite-class-failed -->
+          <div class="suite-_Insly_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">inslyTests.TC_01_verify_Title_and_Form</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_titleCheck_and_FormVerify">
+                  </a> <!-- TC_01_titleCheck_and_FormVerify -->
+                  <span class="method-name">TC_01_titleCheck_and_FormVerify</span>
+                  <div class="stack-trace">com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException: Images dimensions mismatch: image1 - 3797x3755; image2 - 1898x1867
+	at com.assertthat.selenium_shutterbug.utils.image.ImageProcessor.imagesAreEqualsWithDiff(ImageProcessor.java:155)
+	at com.assertthat.selenium_shutterbug.core.Snapshot.equalsWithDiff(Snapshot.java:215)
+	at insly.base.imageComparator(base.java:178)
+	at inslyTests.TC_01_verify_Title_and_Form.TC_01_titleCheck_and_FormVerify(TC_01_verify_Title_and_Form.java:43)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC01 asserts'Sign up and start using' is showen and the form looks accordig the image 0)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Insly_Suite-class-failed -->
+          <div class="suite-_Insly_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">inslyTests.TC_07_SignUp_and_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_07_SignUp_and_Login(flqeqqix, Greece, Insurance Agency, 6-10, I am a tech guy, dceolyeo@email.com, Some Manager, 1234567...)">
+                  </a> <!-- TC_07_SignUp_and_Login(flqeqqix, Greece, Insurance Agency, 6-10, I am a tech guy, dceolyeo@email.com, Some Manager, 1234567...) -->
+                  <span class="method-name">TC_07_SignUp_and_Login</span>
+                  <span class="parameters">(flqeqqix, Greece, Insurance Agency, 6-10, I am a tech guy, dceolyeo@email.com, Some Manager, 123456789)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at insly.base.URLverify(base.java:334)
+	at inslyTests.TC_07_SignUp_and_Login.TC_07_SignUp_and_Login(TC_07_SignUp_and_Login.java:76)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(SignUp_and_verify_LogedIn_as_User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Insly_Suite-class-failed -->
+          <div class="suite-_Insly_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">inslyTests.TC_03_SignUp_and_Verify_URL</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_SignUp_and_Verify_loginURL(nswuposc, Greece, Insurance Agency, 6-10, I am a tech guy, stvxzlwg@email.com, Some Manager, 1234567...)">
+                  </a> <!-- TC_03_SignUp_and_Verify_loginURL(nswuposc, Greece, Insurance Agency, 6-10, I am a tech guy, stvxzlwg@email.com, Some Manager, 1234567...) -->
+                  <span class="method-name">TC_03_SignUp_and_Verify_loginURL</span>
+                  <span class="parameters">(nswuposc, Greece, Insurance Agency, 6-10, I am a tech guy, stvxzlwg@email.com, Some Manager, 123456789)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at insly.base.URLverify(base.java:334)
+	at inslyTests.TC_03_SignUp_and_Verify_URL.TC_03_SignUp_and_Verify_loginURL(TC_03_SignUp_and_Verify_URL.java:74)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Admin Accoount details form fill,storing the suggested password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Insly_Suite-class-failed -->
+          <div class="suite-_Insly_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_SignUp_and_verify_LogedIn_as_User(lsbziuiq, Greece, Insurance Agency, 6-10, I am a tech guy, kcvnduiq@email.com, Some Manager, 1234567...)">
+                  </a> <!-- TC_04_SignUp_and_verify_LogedIn_as_User(lsbziuiq, Greece, Insurance Agency, 6-10, I am a tech guy, kcvnduiq@email.com, Some Manager, 1234567...) -->
+                  <span class="method-name">TC_04_SignUp_and_verify_LogedIn_as_User</span>
+                  <span class="parameters">(lsbziuiq, Greece, Insurance Agency, 6-10, I am a tech guy, kcvnduiq@email.com, Some Manager, 123456789)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at insly.base.URLverify(base.java:334)
+	at inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User.TC_04_SignUp_and_verify_LogedIn_as_User(TC_04_SignUp_and_verify_LogedIn_as_User.java:82)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(SignUp_and_verify_LogedIn_as_User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Insly_Suite-class-failed -->
+          <div class="suite-_Insly_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">inslyTests.TC_05_SignUpForm_ErrorMessages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_VerifyFieldsErrorMessages">
+                  </a> <!-- TC_05_VerifyFieldsErrorMessages -->
+                  <span class="method-name">TC_05_VerifyFieldsErrorMessages</span>
+                  <em>
+(Verify correct Error messages are Displayed and CorrectText if no data is entered in the fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Insly_Suite-class-passed -->
+          <div class="suite-_Insly_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">inslyTests.TC_06_SignUpForm_ErrorMessages2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_06_SignUpForm_ErrorMessages2(qw, Greece, Insurance Agency, 6-10, I am a tech guy, qw, qw, 1)">
+                  </a> <!-- TC_06_SignUpForm_ErrorMessages2(qw, Greece, Insurance Agency, 6-10, I am a tech guy, qw, qw, 1) -->
+                  <span class="method-name">TC_06_SignUpForm_ErrorMessages2</span>
+                  <span class="parameters">(qw, Greece, Insurance Agency, 6-10, I am a tech guy, qw, qw, 1)</span>
+                  <em>
+(Verify correct Error messages are Displayed and CorrectText if less than required data is entered in the fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Insly_Suite-class-passed -->
+        </div> <!-- panel _Insly_Suite -->
+        <div panel-name="test-xml-_Insly_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Plamen\eclipse-workspace\insly\src\test\java\Suites\Suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot; Insly Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;insly.Listners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Insly Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;inslyTests.TC_01_verify_Title_and_Form&quot;/&gt;
+      &lt;class name=&quot;inslyTests.TC_02_verify_AutoFillUp&quot;/&gt;
+      &lt;class name=&quot;inslyTests.TC_03_SignUp_and_Verify_URL&quot;/&gt;
+      &lt;class name=&quot;inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User&quot;/&gt;
+      &lt;class name=&quot;inslyTests.TC_05_SignUpForm_ErrorMessages&quot;/&gt;
+      &lt;class name=&quot;inslyTests.TC_06_SignUpForm_ErrorMessages2&quot;/&gt;
+      &lt;class name=&quot;inslyTests.TC_07_SignUp_and_Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Insly Test --&gt;
+&lt;/suite&gt; &lt;!--  Insly Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-_Insly_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for  Insly Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Insly Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-_Insly_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for  Insly Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-_Insly_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for  Insly Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData__Insly_Suite');
+function tableData__Insly_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_04_SignUp_and_verify_LogedIn_as_User')
+data.setCell(0, 2, 'inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User')
+data.setCell(0, 3, 25976);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_03_SignUp_and_Verify_loginURL')
+data.setCell(1, 2, 'inslyTests.TC_03_SignUp_and_Verify_URL')
+data.setCell(1, 3, 22831);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_07_SignUp_and_Login')
+data.setCell(2, 2, 'inslyTests.TC_07_SignUp_and_Login')
+data.setCell(2, 3, 22028);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_01_titleCheck_and_FormVerify')
+data.setCell(3, 2, 'inslyTests.TC_01_verify_Title_and_Form')
+data.setCell(3, 3, 14119);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_02_Verify_auto_addressFillUp')
+data.setCell(4, 2, 'inslyTests.TC_02_verify_AutoFillUp')
+data.setCell(4, 3, 5120);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_05_VerifyFieldsErrorMessages')
+data.setCell(5, 2, 'inslyTests.TC_05_SignUpForm_ErrorMessages')
+data.setCell(5, 3, 2367);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_06_SignUpForm_ErrorMessages2')
+data.setCell(6, 2, 'inslyTests.TC_06_SignUpForm_ErrorMessages2')
+data.setCell(6, 3, 2067);
+window.suiteTableData['_Insly_Suite']= { tableData: data, tableDiv: 'times-div-_Insly_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-_Insly_Suite">
+              </div> <!-- times-div-_Insly_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-_Insly_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for  Insly Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_05_VerifyFieldsErrorMessages</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting test method:TC_05_VerifyFieldsErrorMessages</span>
+                <span class="reporter-method-output">Text : Please enter your company name here. - is Verified</span>
+                <span class="reporter-method-output">Text : Please choose an address for your Insly database. - is Verified</span>
+                <span class="reporter-method-output">Text : Please enter your e-mail address here. - is Verified</span>
+                <span class="reporter-method-output">Text : Please enter your name here. - is Verified</span>
+                <span class="reporter-method-output">Text : This does not appear to be a valid phone number. - is Verified</span>
+                <span class="reporter-method-output">TC_05_VerifyFieldsErrorMessages is Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_06_SignUpForm_ErrorMessages2(qw, Greece, Insurance Agency, 6-10, I am a tech guy, qw, qw, 1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting test method:TC_06_SignUpForm_ErrorMessages2</span>
+                <span class="reporter-method-output"> Enter value : qw</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Greece</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Insurance Agency</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : 6-10</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : I am a tech guy</span>
+                <span class="reporter-method-output"> Enter value : qw</span>
+                <span class="reporter-method-output">The generated String is  :qw</span>
+                <span class="reporter-method-output"> Enter value : qw</span>
+                <span class="reporter-method-output"> Enter value : 1</span>
+                <span class="reporter-method-output">Text : The company name must be at least 3 characters long. - is Verified</span>
+                <span class="reporter-method-output"> Enter value : qw</span>
+                <span class="reporter-method-output">Text : The address tag must be at least 3 characters long. - is Verified</span>
+                <span class="reporter-method-output">Text : This does not appear to be a valid e-mail address. - is Verified</span>
+                <span class="reporter-method-output">Text : Please enter your full name. - is Verified</span>
+                <span class="reporter-method-output">Text : This does not appear to be a valid phone number. - is Verified</span>
+                <span class="reporter-method-output">TC_06_SignUpForm_ErrorMessages2 is Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_01_titleCheck_and_FormVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting test method:TC_01_titleCheck_and_FormVerify</span>
+                <span class="reporter-method-output">URL is Verified</span>
+                <span class="reporter-method-output">Page title  is Verified</span>
+                <span class="reporter-method-output"> Enter value : </span>
+                <span class="reporter-method-output"> Enter value : </span>
+                <span class="reporter-method-output"> Enter value : </span>
+                <span class="reporter-method-output"> Enter value : </span>
+                <span class="reporter-method-output"> Enter value : </span>
+                <span class="reporter-method-output"> Enter value : </span>
+                <span class="reporter-method-output">Text : You can invite your colleagues from here and they will get their own user access to your Company account - is Verified</span>
+                <span class="reporter-method-output">All elements on Signup page are Displayed</span>
+                <span class="reporter-method-output">TC_01_titleCheck_and_FormVerify is Failed</span>
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_23_EEST_2019.png></a></span>
+                <span class="reporter-method-output"><br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_23_EEST_2019.png' height='200' width='200' /><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_23_EEST_2019.png>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_02_Verify_auto_addressFillUp(myFirstTestCompanyName, Greece, Insurance Agency, 6-10, I am a tech guy)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting test method:TC_02_Verify_auto_addressFillUp</span>
+                <span class="reporter-method-output"> Enter value : myFirstTestCompanyName</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Greece</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Insurance Agency</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : 6-10</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : I am a tech guy</span>
+                <span class="reporter-method-output">TC_02_Verify_auto_addressFillUp is Failed</span>
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_51_EEST_2019.png></a></span>
+                <span class="reporter-method-output"><br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_51_EEST_2019.png' height='200' width='200' /><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_26_51_EEST_2019.png>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_03_SignUp_and_Verify_loginURL(nswuposc, Greece, Insurance Agency, 6-10, I am a tech guy, stvxzlwg@email.com, Some Manager, 1234567...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting test method:TC_03_SignUp_and_Verify_loginURL</span>
+                <span class="reporter-method-output"> Enter value : nswuposc</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Greece</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Insurance Agency</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : 6-10</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : I am a tech guy</span>
+                <span class="reporter-method-output"> Enter value : stvxzlwg@email.com</span>
+                <span class="reporter-method-output">The generated String is  :stvxzlwg@email.com</span>
+                <span class="reporter-method-output"> Enter value : Some Manager</span>
+                <span class="reporter-method-output"> Enter value : 123456789</span>
+                <span class="reporter-method-output">The generated Secured Password from insly is  :Dw5-n7H-959-uMa</span>
+                <span class="reporter-method-output">All elements from Loading Page are Displayed</span>
+                <span class="reporter-method-output">TC_03_SignUp_and_Verify_loginURL is Failed</span>
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_27_34_EEST_2019.png></a></span>
+                <span class="reporter-method-output"><br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_27_34_EEST_2019.png' height='200' width='200' /><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_27_34_EEST_2019.png>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_07_SignUp_and_Login(flqeqqix, Greece, Insurance Agency, 6-10, I am a tech guy, dceolyeo@email.com, Some Manager, 1234567...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting test method:TC_07_SignUp_and_Login</span>
+                <span class="reporter-method-output"> Enter value : flqeqqix</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Greece</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Insurance Agency</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : 6-10</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : I am a tech guy</span>
+                <span class="reporter-method-output"> Enter value : dceolyeo@email.com</span>
+                <span class="reporter-method-output">The generated String is  :dceolyeo@email.com</span>
+                <span class="reporter-method-output"> Enter value : Some Manager</span>
+                <span class="reporter-method-output"> Enter value : 123456789</span>
+                <span class="reporter-method-output">The generated Secured Password from insly is  :8L6-y1t-37G-pRm</span>
+                <span class="reporter-method-output">All elements from Loading Page are Displayed</span>
+                <span class="reporter-method-output">TC_07_SignUp_and_Login is Failed</span>
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_29_57_EEST_2019.png></a></span>
+                <span class="reporter-method-output"><br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_29_57_EEST_2019.png' height='200' width='200' /><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_29_57_EEST_2019.png>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_04_SignUp_and_verify_LogedIn_as_User(lsbziuiq, Greece, Insurance Agency, 6-10, I am a tech guy, kcvnduiq@email.com, Some Manager, 1234567...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting test method:TC_04_SignUp_and_verify_LogedIn_as_User</span>
+                <span class="reporter-method-output"> Enter value : lsbziuiq</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Greece</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : Insurance Agency</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : 6-10</span>
+                <span class="reporter-method-output">Selecting from dropdown value as : I am a tech guy</span>
+                <span class="reporter-method-output"> Enter value : kcvnduiq@email.com</span>
+                <span class="reporter-method-output">The generated String is  :kcvnduiq@email.com</span>
+                <span class="reporter-method-output"> Enter value : Some Manager</span>
+                <span class="reporter-method-output"> Enter value : 123456789</span>
+                <span class="reporter-method-output">The generated Secured Password from insly is  :BTt-Xc4-egB-QrM</span>
+                <span class="reporter-method-output">All elements from Loading Page are Displayed</span>
+                <span class="reporter-method-output">TC_04_SignUp_and_verify_LogedIn_as_User is Failed</span>
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_28_24_EEST_2019.png></a></span>
+                <span class="reporter-method-output"><br>  <img src='C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_28_24_EEST_2019.png' height='200' width='200' /><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=C:\Users\Plamen\eclipse-workspace\insly\screenshots\Tue_May_07_00_28_24_EEST_2019.png>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-_Insly_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">inslyTests.TC_02_verify_AutoFillUp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">inslyTests.TC_07_SignUp_and_Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">inslyTests.TC_03_SignUp_and_Verify_URL</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">inslyTests.TC_05_SignUpForm_ErrorMessages</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">inslyTests.TC_06_SignUpForm_ErrorMessages2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-_Insly_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_01_verify_Title_and_Form</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">13939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_titleCheck_and_FormVerify</span>
+                <span class="method-start">17338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">34178 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_02_verify_AutoFillUp</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">34181 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">48031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_02_Verify_auto_addressFillUp(myFirstTestCompanyName, Greece, Insurance Agency, 6-10, I am a tech guy)</span>
+                <span class="method-start">55143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">61466 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_03_SignUp_and_Verify_URL</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">61466 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">74195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_03_SignUp_and_Verify_loginURL(nswuposc, Greece, Insurance Agency, 6-10, I am a tech guy, stvxzlwg@email.com, Some Manager, 1234567...)</span>
+                <span class="method-start">79691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">103391 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_04_SignUp_and_verify_LogedIn_as_User</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">103391 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">116037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_04_SignUp_and_verify_LogedIn_as_User(lsbziuiq, Greece, Insurance Agency, 6-10, I am a tech guy, kcvnduiq@email.com, Some Manager, 1234567...)</span>
+                <span class="method-start">127109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">154186 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_05_SignUpForm_ErrorMessages</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">154186 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">166799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_05_VerifyFieldsErrorMessages</span>
+                <span class="method-start">174355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">176725 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_06_SignUpForm_ErrorMessages2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">176726 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">194140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_06_SignUpForm_ErrorMessages2(qw, Greece, Insurance Agency, 6-10, I am a tech guy, qw, qw, 1)</span>
+                <span class="method-start">203294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">205362 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_07_SignUp_and_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">205363 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">218093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_07_SignUp_and_Login(flqeqqix, Greece, Insurance Agency, 6-10, I am a tech guy, dceolyeo@email.com, Some Manager, 1234567...)</span>
+                <span class="method-start">223835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">246735 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">inslyTests.TC_01_verify_Title_and_Form</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">246760 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
