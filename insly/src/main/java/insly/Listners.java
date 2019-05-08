@@ -67,13 +67,13 @@ public class Listners extends base implements ITestListener,ISuiteListener, IInv
 
 	@Override
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
+		Reporter.log(context.getName() + " Starts" );
 		
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+		Reporter.log(context.getName() + " Finish" );
 		
 	}
 

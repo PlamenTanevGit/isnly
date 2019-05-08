@@ -12,7 +12,7 @@ import pages.inslySignUpPage;
 
 public class TC_03_SignUp_and_Verify_URL  extends base{
 	/*
-	 *  This test is using @DataProvider separated in different class for feeding data in the fields 
+	 *  This test is for SignUp and verify URL using @DataProvider separated in different class for feeding data in the fields 
 	 *  It verifies: step2,3,4 and from step5 verifies:'URL matches with URL from step 2'
 	 *  also verifies all elements in LoginPage are Displayed
 	 */

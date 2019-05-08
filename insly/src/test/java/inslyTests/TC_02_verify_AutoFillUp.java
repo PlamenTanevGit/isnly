@@ -11,7 +11,7 @@ import pages.inslySignUpPage;
 
 public class TC_02_verify_AutoFillUp  extends base{
 	/*
-	 *  This Test will insert values in the fields using @DataProvider. Then it will verify the presense of the text
+	 *  This Test is for Auto Fill up will insert values in the fields using @DataProvider. Then it will verify the presense of the text
 	 *  from 'company name' field in to the 'your insly address' field using Image comparator
 	 *  In the \\imageInsly\\TC2_Expectedimage.png is loacated image that has completed 'your instly address' field
 	 *  after test execution if the field is not completed will throw Assertion Error, because imageComparator compares the 

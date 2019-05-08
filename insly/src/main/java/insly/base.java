@@ -63,7 +63,7 @@ public class base {
 	public static JavascriptExecutor js;
 	protected inslySignUpPage signUpPage;
 	static long startTime;
-	static long endTime;
+	static long endTime; 
 
 	public static WebDriver initialise(String browser) {
 		Map<String, Object> prefs = new HashMap<String, Object>();
@@ -412,7 +412,7 @@ public class base {
 
 
 		if (driver != null) {
-			//driver.quit();
+			driver.quit();
 		}
 	}
 
